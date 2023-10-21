@@ -1,0 +1,21 @@
+
+
+
+@font-face {
+    font-family: 'major-mono';
+    src: url('./fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+.font-display {
+    font-family: 'major-mono';
+}
+
+.font-primary {
+    font-family: 'montserrat';
+}

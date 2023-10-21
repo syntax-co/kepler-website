@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url('./font-imports.css');
+@import url('./index.css');
+@import url('./navbar.css');
+@import url('./demo.css');
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply
+    bg-color-2
+  ;
+}
+
+
+.shadow-type-1 {
+  box-shadow: inset 7px 7px 5px #30303055;
+}
+
+.shadow-type-2 {
+  box-shadow: 7px 7px 5px #30303055;
+}
+
+
+
+input {
+  background-color: transparent;
+  font-family: 'montserrat';
+}
+
+input:focus {
+  outline: none;
+  border-color: 'orange';
 }

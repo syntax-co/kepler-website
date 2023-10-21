@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.demo-main-body {
+    @apply
+    h-full absolute top-0 
+    bg-color-5 z-10 rounded-l-xl
+    
+    sm:w-screen
+    md:w-[500px]
+    lg:w-[500px]
+    xl:w-[500px]
+    ;
+}
+
+
+.alt-sign-body {
+
+@apply
+h-[180px] flex justify-center
+
+sm:mb-0 h-[120px]
+md:mb-20
+lg:mb-20
+xl:mb-20
+
+;
+
+}
+
+

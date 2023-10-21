@@ -1,0 +1,21 @@
+import {Password} from 'kepler-react';
+
+const TestSpace = () => {
+    return (
+        <div>
+            <Password id='id-name-1'
+            match={{
+                enabled:true,
+                id:'id-name-2'
+            }}
+            >
+                <input />
+            </Password >
+
+            <Password id='id-name-2'
+            >
+                <input />
+            </Password >
+        </div>
+    );
+}

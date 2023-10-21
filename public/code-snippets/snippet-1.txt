@@ -1,0 +1,20 @@
+import {Email,Password} from 'keper-react';
+import {dish} from 'kepler-react/dish';
+
+const TestSpace = () => {
+    const api_key = 'api_key_here';
+    const connecter = dish(api_key);
+
+
+    return (
+        <div>
+            <Email id='email-input' >
+                <input />
+            </Email>
+
+            <Password id='password-input' >
+                <input />
+            </Password>
+        </div>
+    );
+}

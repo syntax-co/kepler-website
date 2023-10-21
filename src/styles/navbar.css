@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.navbar-outer {
+    @apply
+    w-full h-[10vh] flex items-center justify-center
+    ;
+}
+
+.navbar-inner {
+    @apply
+    w-11/12 h-14  rounded-lg relative flex items-center
+    ;
+}
+
+
+
+
+
+/* ████████╗██╗████████╗██╗     ███████╗
+   ╚══██╔══╝██║╚══██╔══╝██║     ██╔════╝
+      ██║   ██║   ██║   ██║     █████╗  
+      ██║   ██║   ██║   ██║     ██╔══╝  
+      ██║   ██║   ██║   ███████╗███████╗
+      ╚═╝   ╚═╝   ╚═╝   ╚══════╝╚══════╝
+                                         */
+   
+
+.title-outer {
+    @apply
+    h-14 w-fit px-5 flex items-center
+    text-white relative bg-white rounded-full 
+    overflow-hidden
+
+    sm:text-sm
+    md:text-base
+    lg:text-xl
+    xl:text-3xl
+
+    ;
+}
+
+
+.title-text-bottom {
+    @apply
+    text-black
+    ;
+}
+
+
+.title-slide-tile {
+    @apply
+    w-1/2 h-full absolute flex items-center overflow-hidden  
+    bg-color-4 rounded-l-full
+    ;
+}
+
+
+
+.title-rot-tile {
+    @apply
+    w-full h-[500%] left-0 flex absolute
+    ;
+}
+

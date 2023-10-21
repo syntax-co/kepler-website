@@ -1,0 +1,9 @@
+import {Password} from 'kepler-react';
+const TestSpace = () => {
+    return (
+        <Password id='id-name'
+        >
+            <input />
+        </Password >
+    );
+}
