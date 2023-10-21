@@ -25,8 +25,8 @@ const DemoWarningBrowser = ({
             }}
 
             animate={{
-                height: '30px',
-                width:'30px',
+                height:(open&&(!mobile))? '100%':'30px',
+                width:(open&&(!mobile))? '100%':'30px',
                 borderRadius:'8px'
             }}
             >

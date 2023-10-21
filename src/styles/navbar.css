@@ -53,10 +53,17 @@
 }
 
 
-.title-slide-tile {
+.title-slide-tile-left {
     @apply
     w-1/2 h-full absolute flex items-center overflow-hidden  
     bg-color-4 rounded-l-full
+    ;
+}
+
+.title-slide-tile-right {
+    @apply
+    w-1/2 h-full absolute flex items-center overflow-hidden  
+    bg-color-3 rounded-r-full
     ;
 }
 

@@ -74,7 +74,7 @@ const Title = () => {
 
             
             {/* slide in group */}
-            <motion.div className="title-slide-tile"
+            <motion.div className="title-slide-tile-left"
             initial={{left:'-50%'}}
             animate={{
                 left:'0%'
@@ -98,7 +98,7 @@ const Title = () => {
 
             </motion.div>
             
-            <motion.div className="title-slide-tile"
+            <motion.div className="title-slide-tile-right"
             initial={{right:'-50%'}}
             animate={{
                 right:'0%'
@@ -168,7 +168,7 @@ const Title = () => {
 const Navbar = ({openDemo,setOpenDemo}) => {
 
     const [hovering,sethovering] = useState(false);
-    const [open,setOpen] = useState(true);
+    const [open,setOpen] = useState(false);
     const [lock,setLock] = useState(false);
     const [mobile,setMobile] = useState(false);
 
