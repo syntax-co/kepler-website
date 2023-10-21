@@ -22,16 +22,19 @@
 .index-body {
     @apply
     w-full h-full flex  justify-center
-    overflow-scroll
+    
 
     sm:items-start
+    sm:overflow-scroll
 
     md:items-start
+    md:overflow-scroll
 
     lg:items-center
+    lg:overflow-hidden
 
     xl:items-center
-
+    xl:overflow-hidden
     ;
 }
 
